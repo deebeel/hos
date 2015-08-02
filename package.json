@@ -1,0 +1,27 @@
+{
+  "name": "hos",
+  "version": "1.0.0",
+  "description": "Higher-order functions for object streams",
+  "main": "./lib",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deebeel/hos.git"
+  },
+  "keywords": [
+    "higher-order functions",
+    "stream"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "author": "deebeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deebeel/hos/issues"
+  },
+  "homepage": "https://github.com/deebeel/hos#readme"
+}
