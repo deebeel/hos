@@ -1,4 +1,12 @@
 sudo: false
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
+deploy:
+  provider: npm
+  email: deedeeua@gmail.com
+  api_key:
+    secure: YsmUarAsxQ2n2JQI+R7CbqKhOnz1n6DgMt56Y9VJ24KIonluaFUxuh0fwJ/WSGF61kKFO9CFlclN5ZnV1LUemvQXUAmfZuF8IxC2E+87y8obsaPqsnqrMUtYKrTxQH5rNtqBjJ0xC3uF0T7QEkpB8ipjYzb344bsvIa+HxX2oZhKimdtW2XK0F2/ZS67bQScYJt6i6s/JTIUxihedkwhPVJieze8YJGfJ0ZMjfkZYwXaWmxGw2sFXp1B+wJzdEuBmfKXTKWUYNZLU3p2KWQhooxRRQ//6ITHwODm8fevaCbPJ1Gnuen3THTv+qtX+uyxfSH6w4ZJO1cTg9vOWnmbQEGkQMMj41Nv8LAHCkc2cydTe2rC5NPU4AtT5osO0OUkbCMY4tz1YUYtz4T4uE5tVjQTBdNymgOelZsggilwheQ5H5duIGd/pWfFnK45F+dTifeQ0U03Ez/rLfx714KnMW32xnVdqcvxu6YPRirFoYHil94EzRmjFKr1LloLfrIk+2S2iozUQOTtbyFuknij3TLWzOaEpIWUe1W+szyyK4peBgLCMT//2Y6t8OpDunknYG+KBrfhQigCla7udPyZ6vkgjWeyh6TAbOAF3IOGPYdGBuafQmf8c5Ilw9Hqfmi3q2WSKNnNYXjZdx7Jii5IaWGsMGTAgsqV8cP/nNg4Vkc=
+  on:
+    tags: true
+    repo: deebeel/hos
